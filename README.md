@@ -1,1 +1,1 @@
-# my personel portfolio
+# my personal portfolio
