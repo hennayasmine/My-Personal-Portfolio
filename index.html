@@ -211,6 +211,43 @@ html{
     cursor:pointer;
     box-shadow: 0 0 10px white;
 }
+  #footer {
+      background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+    }
+    #footer .footer {
+      min-height: 200px;
+      flex-direction: column;
+      padding-top: 50px;
+      padding-bottom: 10px;
+    }
+    #footer h2 {
+      color: white;
+      font-weight: 500;
+      font-size: 1.8rem;
+      letter-spacing: 0.1rem;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    #footer .social-icon {
+      display: flex;
+      margin-bottom: 30px;
+    }
+    #footer .social-item {
+      height: 50px;
+      width: 50px;
+      margin: 0 5px;
+    }
+    #footer .social-item img {
+      filter: grayscale(1);
+      transition: 0.3s ease filter;
+    }
+    #footer .social-item:hover img {
+      filter: grayscale(0);
+    }
+    #footer p {
+      color: white;
+      font-size: 1.3rem;
+    }
 </style>
     
 
@@ -292,6 +329,27 @@ html{
 
         </form>
     </section>
+    
+    <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1><span>K</span>rishna <span>K</span>ishore</h1>
+      </div>
+      <h2>Your Complete Web Solution</h2>
+      <div class="social-icon">
+        <div class="social-item">
+          <a href="https://www.facebook.com/kishore.kuraganti.98" target="_blank"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="https://www.instagram.com/ig_kishore143/" target="_blank"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="https://twitter.com/KKishor03155504" target="_blank"><img src="https://img.icons8.com/bubbles/100/000000/twitter.png" /></a>
+        </div>
+      </div>
+      <p>Copyright © 2020 Kishore. All rights reserved</p>
+    </div>
+  </section>
 
 
     </body>
